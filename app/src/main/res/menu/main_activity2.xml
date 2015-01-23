@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.quantum.retailapp.MainActivity2">
+    <item
+        android:id="@+id/action_example"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/action_example"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@android:drawable/stat_notify_sync"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>
